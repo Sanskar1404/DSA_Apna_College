@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int swapp(int &x,int &y)
+{
+    int temp;
+    temp=x;
+    x=y;
+    y=temp;
+    
+    return x,y;
+}
+int main() {
+    // Write C++ code here
+    cout << "enter the numbes to swap"<<endl;
+    int a,b;
+    cin>>a>>b;
+    cout<<"the numbers before swap are a="<<a<<"and b="<<b<<endl;
+    swapp(a,b);
+    cout<<"the numbers after swap are a="<<a<<"and b="<<b<<endl;
+    return 0;
+}
