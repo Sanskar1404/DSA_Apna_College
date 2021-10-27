@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define N 4
+
+
+// Driver code
+int main()
+{
+	int A[N][N] = { {1, 1, 1, 1},
+					{2, 2, 2, 2},
+					{3, 3, 3, 3},
+					{4, 4, 4, 4}};
+
+
+	cout <<"Result matrix is \n";
+	for (i = 0; i < N; i++)
+	{
+		for (j = 0; j < N; j++)
+		cout <<" "<< A[j][i];
+		cout <<"\n";
+	}
+
+	return 0;
+}
+
+
+o/p:
+Result matrix is 
+ 1 2 3 4
+ 1 2 3 4
+ 1 2 3 4
+ 1 2 3 4
